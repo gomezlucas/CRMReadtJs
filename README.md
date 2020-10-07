@@ -13,4 +13,4 @@ password: 123456
 
 #### Screens:
 
-![Login](./public/readmeImg/login "Login") 
+![Login](./public/readmeImg/login.png "Login") 
