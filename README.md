@@ -13,4 +13,20 @@ password: 123456
 
 #### Screens:
 
+### Login 
 ![Login](./public/readmeImg/login.png "Login") 
+
+### Clientes 
+![Clientes](./public/readmeImg/clientes.png "Clientes") 
+
+### Productos 
+![Productos](./public/readmeImg/productos.png "Productos") 
+
+### Pedidos 
+![Pedidos](./public/readmeImg/pedidos.png "Pedidos") 
+
+### Mejores Vendedores 
+![Mejores Vendedores](./public/readmeImg/mejoresvendedores.png "Mejores Vendedores") 
+
+### Mejores Clientes 
+![Mejores Clientes](./public/readmeImg/mejoresclientes.png "Mejores Clientes") 
