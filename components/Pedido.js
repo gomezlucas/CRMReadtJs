@@ -59,8 +59,7 @@ const Pedido = ({ pedido }) => {
 
 
     const cambiarClase = () => {
-        console.log(estadoPedido)
-        if (estadoPedido === "PENDIENTE") {
+         if (estadoPedido === "PENDIENTE") {
             setClase('border-yellow-500')
         } else if (estadoPedido === "COMPLETADO") {
             setClase('border-green-700')
@@ -72,8 +71,7 @@ const Pedido = ({ pedido }) => {
 
     const cambiarEstadoPedido = async (nuevoEstado) => {
         try {
-            console.log(estado)
-            const { data } = await actualizarPedido({
+             const { data } = await actualizarPedido({
                 variables: {
                     id,
                     input: {
@@ -112,8 +110,7 @@ const Pedido = ({ pedido }) => {
                         'El Pedido ha sido eliminado',
                         'success'
                     )
-                    console.log(data)
-                } catch (error) {
+                 } catch (error) {
                     console.log(error)
                 }
 

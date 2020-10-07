@@ -6,8 +6,7 @@ const TotalPedido = () => {
 
      // Utilizar context y extraer sus funciones y valores
      const pedidoContext = useContext(PedidoContext)
-     console.log('pedidod', pedidoContext)
-    const {total} = pedidoContext
+     const {total} = pedidoContext
  
  
      return (

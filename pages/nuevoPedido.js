@@ -79,8 +79,7 @@ const NuevoPedido = () => {
     const crearNuevoPedido = async () => {
         const pedido = productos.map(({ __typename, existencia, creado, ...producto }) => producto)
         const { id } = cliente
-        console.log(pedido, 'a veer')
-        try {
+         try {
 
             const { data } = await nuevoPedido({
                 variables: {
@@ -91,8 +90,7 @@ const NuevoPedido = () => {
                     }
                 }
             })
-            console.log('data', data)
-            //alerta 
+             //alerta 
             Swal.fire(
                 "Correcto",
                 "El pedido se registro correctamente",

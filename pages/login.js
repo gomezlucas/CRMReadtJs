@@ -64,8 +64,7 @@ const Login = () => {
                  }, 3000);
 
             } catch (e) {
-                console.log(e)
-                setMensaje(e.message)
+                 setMensaje(e.message)
 
                 setTimeout(() => {
                     setMensaje(null)

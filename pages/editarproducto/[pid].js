@@ -73,8 +73,7 @@ const EditarProducto = () => {
                 }
             })
 
-            console.log(data)
-
+ 
             //mostrar alert 
             Swal.fire(
                 'Actualizado!',

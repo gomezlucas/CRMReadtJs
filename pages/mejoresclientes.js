@@ -27,13 +27,11 @@ const MejoresClientes = () => {
 
     if (loading) return 'Cargando...'
 
-    console.log(data.mejoresClientes)
-
+ 
     const clientesGrafica = data.mejoresClientes.map((cliente, index)=>{
         return {...cliente.cliente[0], total : cliente.total}
     })
-    console.log(clientesGrafica, 'grafica')
-
+ 
     return (
         <Layout>
             <h1 className="text-2xl text-grey-800 font-light">  Mejores Clientes</h1>

@@ -39,8 +39,7 @@ const NuevoProducto = () => {
         update(cache, {data: {nuevoProducto}}){
             //obtener el nuevo cache
             const {obtenerProductos} = cache.readQuery({query: OBTENER_PRODUCTOS})
-console.log(obtenerProductos)
-            //reescribir el cache con la nueva informacion
+             //reescribir el cache con la nueva informacion
             cache.writeQuery({
                 query: OBTENER_PRODUCTOS, 
                 data: {
@@ -72,8 +71,7 @@ console.log(obtenerProductos)
 
         }),
         onSubmit: async valores => {
-            console.log(valores)
-            const { nombre, existencia, precio } = valores
+             const { nombre, existencia, precio } = valores
             try {
                 const { data } = await crearNuevoProducto({
                     variables: {
@@ -82,8 +80,7 @@ console.log(obtenerProductos)
                         }
                     }
                 })
-                console.log(data)
-
+ 
                 //Mostrar alerta 
                 Swal.fire(
                     'Creado!',

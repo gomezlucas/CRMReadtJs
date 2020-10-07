@@ -24,8 +24,7 @@ const Productos = () => {
 
     if (loading) return <h2> Cargando...  </h2>
 
-    console.log(data, loading, error)
-
+ 
     return (
         <div>
             <Layout>
