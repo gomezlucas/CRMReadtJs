@@ -4,7 +4,7 @@ import {setContext} from 'apollo-link-context'
 
 
 const httpLink = createHttpLink({
-    uri: 'https://dashboard.heroku.com/apps/crmgraphql-back/logs',
+    uri: 'https://crmgraphql-back.herokuapp.com/',
     fetch
 })
 
